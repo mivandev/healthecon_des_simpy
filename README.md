@@ -1,4 +1,7 @@
 # Simple health economic DES model with Python
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mivandev/healthecon_des_simpy/blob/main/he_model_oo.ipynb)
+
 A very simple model to serve as an exploration of creating health economic Discrete-Event Simulation (DES) models in Python using SimPy library. The clinical context of the model is as follows:
 * During a cycle of treatment, patients can either die (p = 0.1) or experience a full cycle of treatment without any other events occurring.
 * Patients can receive up to five cycles of treatment.
